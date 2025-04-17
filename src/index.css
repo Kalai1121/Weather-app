@@ -10,3 +10,10 @@
   display: grid;
   background: linear-gradient(to right, #c9d6ff, #e2e2e2);
 }
+
+@media (max-width: 600px) {
+  .app {
+    padding: 10px;
+    background: linear-gradient(to bottom, #c9d6ff, #e2e2e2); 
+  }
+}
