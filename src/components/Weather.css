@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     gap: 12px;
+    flex-wrap: nowrap;
 }
 .search-bar input{
     height: 50px;
@@ -71,19 +72,18 @@
       border-radius: 12px;
     }
     .search-bar {
-      flex-direction: column;
-      gap: 10px;
-      width: 100%;
+      flex-direction: row;
+      gap: 8px;
     }
     .search-bar input {
-      width: 100%;
+      flex: 1;
       font-size: 16px;
       padding-left: 20px;
       height: 45px;
     }
     .search-bar img {
       width: 45px;
-      padding: 10px;
+      padding: 12px;
     }
     .weather-icon {
       width: 100px;
